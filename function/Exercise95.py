@@ -1,5 +1,3 @@
-
-
 #Capitalize It
 
 def capitalize(string):
