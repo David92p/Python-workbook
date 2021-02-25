@@ -79,10 +79,10 @@ class Insegnante(Persona):
             self.materia.append(nuova)
 
 meredith_grey = "Meredith-Grey-51-Seattle"
-derek_shepherd = "Derek-Shepper-55-Seattle"
+derek_shepherd = "Derek-Shepperd-55-Seattle"
 #di seguito utiliziamo gli oggetti creati da Persona sui metodi delle classi figlie
 studente1 = Studente.oggetto_da_stringa(meredith_grey, "Neurosurgery")
-insegnante1 = Insegnante.oggetto_da_stringa(derek_shepherd, "Neurochirurgia")
+insegnante1 = Insegnante.oggetto_da_stringa(derek_shepherd, "Neurosurgery")
 studente1.cambio_corso("General surgery")
 print(insegnante1.scheda_personale())
 print(studente1.scheda_personale())
